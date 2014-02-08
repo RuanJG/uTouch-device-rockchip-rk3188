@@ -8,6 +8,7 @@
 # Broadcom:
 #           rk90x,
 #           ap6xxx,
+#           ap6xxx_gps,      like ap6476
 #
 # for mtk wifi, bt
 # MediaTek: 
