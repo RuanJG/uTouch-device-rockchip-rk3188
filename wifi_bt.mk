@@ -21,12 +21,14 @@
 #           rtl81xx          only wifi
 #           rtl872x
 #           rtl872xU
-#           rtl81xx_rda587x 
+#           rtl81xx_rda587x
+#           mt6622          like rtl8188+mt6622 
 #
 # for Espressif wifi & Beken bt
 # ESP_BK:
 #           esp8089_bk3515
 #           esp8089          only wifi
+#           mt6622           esp8089+mt6622
 #
 BOARD_CONNECTIVITY_VENDOR := Broadcom
 BOARD_CONNECTIVITY_MODULE := ap6xxx
