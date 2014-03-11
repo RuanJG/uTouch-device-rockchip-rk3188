@@ -23,14 +23,15 @@
 #           rtl8723bs,       #like  rtl8723bs sdio
 #           rtl8723au,       #like  rtl8723au usb
 #           rtl8723bu,       #like  rtl8723bu usb
-#           rtl81xx_rda587x,
-#           mt6622,          #like rtl8188+mt6622 
+#           rda587x,         #like  rtl8188+rda587x
+#           mt6622,          #like  rtl8188+mt6622 
 #
 # for Espressif wifi & Beken bt
 # ESP_BK:
 #           esp8089_bk3515,
 #           esp8089,         #only wifi
 #           mt6622,          #like esp8089+mt6622
+#           rda587x,         #like esp8089+rda587x
 #
 BOARD_CONNECTIVITY_VENDOR := Broadcom
 BOARD_CONNECTIVITY_MODULE := ap6xxx
