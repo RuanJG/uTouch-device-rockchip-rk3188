@@ -27,7 +27,7 @@
 #           mt6622,          #like  rtl8188+mt6622 
 #
 # for Espressif wifi & Beken bt
-# ESP_BK:
+# Espressif:
 #           esp8089_bk3515,
 #           esp8089,         #only wifi
 #           mt6622,          #like esp8089+mt6622
