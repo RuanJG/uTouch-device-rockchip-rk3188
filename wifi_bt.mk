@@ -33,5 +33,10 @@
 #           mt6622,          #like esp8089+mt6622
 #           rda587x,         #like esp8089+rda587x
 #
+# MediaTek_mt7601:
+#	    mt7601           #only wifi
+#           rda587x,         #like  rtl8188+rda587x
+#           mt6622,          #like  rtl8188+mt6622 
+#
 BOARD_CONNECTIVITY_VENDOR := Broadcom
 BOARD_CONNECTIVITY_MODULE := ap6xxx
