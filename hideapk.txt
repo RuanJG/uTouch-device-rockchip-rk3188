@@ -1,0 +1,58 @@
+##############################################
+### 说明：
+### 1、完全隐藏APK，需要添加其包路径，Activity启动图标和Widget
+### 2、新增动态隐藏功能，包路径前边添加+号，快速点击【设置->机型(Model number)】项10下出现/隐藏
+##############################################
+
+## PACKAGE <AccCali>
+com.stk.acccali
+## PACKAGE <ArmFreqTest>
+com.anroid.rk.armFreq
+## PACKAGE <Google 通讯录同步>
+com.google.android.syncadapters.contacts
+## PACKAGE <SIM 卡工具包>
+com.android.stk
+## PACKAGE <联系人>
+com.android.contacts
+## PACKAGE <联系人存储>
+com.android.providers.contacts
+## PACKAGE <自动稳定性测试>
+com.rk.autotest
+## PACKAGE <重力校准>
+com.mcube.acc
+
+## APP_SHORTCUT <联系人>
+com.android.contacts.activities.PeopleActivity
+## APP_SHORTCUT <重力校准>
+com.mcube.acc.MCubeAccActivity
+
+## WIDGET_PROVIDER <Contact>
+com.android.contacts.socialwidget.SocialWidgetProvider
+## WIDGET_SHORTCUT <直接发送短信>
+alias.MessageShortcut
+## WIDGET_SHORTCUT <直接拨打电话>
+alias.DialShortcut
+## WIDGET_SHORTCUT <联系人>
+com.android.contacts.ContactShortcut
+## APP_SHORTCUT <导航>
+com.google.android.maps.driveabout.app.DestinationActivity
+
+
+## DYNAMIC_HIDE_APP 动态隐藏APP，快速点击设置机型项10下出现/隐藏
++com.quickoffice.android
++com.google.android.talk
++com.google.android.apps.docs
++com.google.android.keep
++com.google.android.apps.maps
++com.google.android.apps.plus
++com.google.android.googlequicksearchbox
+            
++com.google.android.videos
++com.google.android.music
++com.google.android.play.games
++com.google.android.youtube
++com.android.chrome
++com.google.android.gm
++com.google.android.apps.magazines
+
++com.android.vending
