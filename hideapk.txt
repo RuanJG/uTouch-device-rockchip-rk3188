@@ -56,3 +56,8 @@ com.google.android.maps.driveabout.app.DestinationActivity
 +com.google.android.apps.magazines
 
 +com.android.vending
+
+#TChip Tools
+com.tchip.toolhelper                    
+com.tchip.attr  
+
